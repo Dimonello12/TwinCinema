@@ -1,0 +1,5 @@
+{
+  "name": "TwinCinema",
+  "description": "A specialized Discord Activity for synchronized co-watching using HLS.js.",
+  "requestFramePermissions": []
+}
