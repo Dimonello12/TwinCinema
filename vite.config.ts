@@ -7,7 +7,7 @@ export default defineConfig({
   
   // Set to '/' because Cloudflare Tunnel/Localhost acts as the root. 
   // (Change back to '/TwinCinema/' ONLY when deploying to GitHub Pages)
-base: '/TwinCinema/',
+base: './',
 
   server: {
     allowedHosts: true, // Required for Cloudflare Tunnel
@@ -18,7 +18,7 @@ base: '/TwinCinema/',
     hmr: {
       protocol: 'wss',
       host: 'cellular-aaa-techno-even.trycloudflare.com',
-      clientPort: 443,
+      clientPort: 443,  
     },
 
     proxy: {
