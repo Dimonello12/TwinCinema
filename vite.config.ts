@@ -7,7 +7,7 @@ export default defineConfig({
   
   // Set to '/' because Cloudflare Tunnel/Localhost acts as the root. 
   // (Change back to '/TwinCinema/' ONLY when deploying to GitHub Pages)
-  base: '/', 
+base: '/TwinCinema/',
 
   server: {
     allowedHosts: true, // Required for Cloudflare Tunnel
